@@ -5,4 +5,4 @@ RUN wget https://raw.githubusercontent.com/composer/getcomposer.org/76a7060ccb93
     cp $PHP_INI_DIR/php.ini-development $PHP_INI_DIR/php.ini && \
     apk add icu-dev && \
     docker-php-ext-configure intl && \
-    docker-php-ext-install intl
+    docker-php-ext-install intl mysqli
